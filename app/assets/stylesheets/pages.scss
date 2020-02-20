@@ -1,3 +1,60 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.whitebg{
+	height:50vh;
+	display: flex;
+  	align-items: flex-end;
+}
+.bluebg{
+	background-color:#225CFE;
+	height:50vh;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+.top{
+	padding-bottom:50px;
+}
+.bottom{
+	color:white;
+}
+.illu{
+	position:relative;
+	top:-380px;
+	left:560px;
+}
+.bottom .email{
+	width:26.92px;
+	height:16.58px;
+	margin:0 8px 0 13px;
+}
+h1{
+	font-size:38px;
+	font-weight:900;
+	padding-top:50px;
+	margin:0;
+}
+h1 .blue{
+	color:#225CFE;
+}
+.button{
+	display:flex;
+	align-items:center;
+	font-weight:400;
+	font-size:12px;
+	width:130px;
+	height:40px;
+	border-radius:12px;
+	background-image: url("../public/mail.svg");
+	margin:50px 0 0 -13px;
+	text-decoration:none;
+	color:white;
+}
+.button:hover{
+	background-color:#2F56C2;
+	cursor:pointer;
+	text-decoration:none;
+}
