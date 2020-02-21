@@ -3,58 +3,63 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .whitebg{
-	height:50vh;
+	height:94vh;
 	display: flex;
-  	align-items: flex-end;
+  	align-items: center;
 }
 .bluebg{
 	background-color:#225CFE;
-	height:50vh;
+	height:6vh;
+	display: flex;
+  	align-items: center;
 }
 .container{
 	width:1200px;
 	margin:0 auto;
 }
-.top{
-	padding-bottom:50px;
-}
-.bottom{
-	color:white;
-}
-.illu{
-	position:relative;
-	top:-380px;
-	left:560px;
-}
-.bottom .email{
-	width:26.92px;
-	height:16.58px;
-	margin:0 8px 0 13px;
-}
 h1{
 	font-size:38px;
-	font-weight:900;
+	font-weight:400;
 	padding-top:50px;
 	margin:0;
 }
 h1 .blue{
 	color:#225CFE;
 }
+.top{
+	position:relative;
+}
+.bottom{
+  	color:white;
+	font-size:10px;
+	display: flex;
+	justify-content:space-between;
+}
+.illu{
+	position:absolute;
+	height:85%;
+	width:auto;
+	top:40px;
+	left:600px;
+}
+a > img{
+	margin-left:15px;
+	margin-right:10px;
+}
 .button{
 	display:flex;
 	align-items:center;
-	font-weight:400;
-	font-size:12px;
-	width:130px;
-	height:40px;
-	border-radius:12px;
-	background-image: url("../public/mail.svg");
-	margin:50px 0 0 -13px;
+	color:black;
+	width:192px;
+	height:50px;
+	border-radius:7px;
+	margin:50px 0 0 0;
 	text-decoration:none;
-	color:white;
+	background-color:#F5F5F5;
 }
 .button:hover{
-	background-color:#2F56C2;
+	background-color:#225CFE;
 	cursor:pointer;
 	text-decoration:none;
+	color:white;
 }
